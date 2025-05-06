@@ -1,21 +1,28 @@
-import React from 'react';
 import './App.scss';
+import React, { useEffect } from 'react';
+import { Navigation } from './components/Navigation/Navigation';
+import { Outlet, useParams } from 'react-router-dom';
+import { Footer } from './components/Footer/Footer';
 
-interface Props {
-  onClick: () => void;
-  children: React.ReactNode;
-}
+export const App = () => {
+  const { phoneId, tabletId, accessoryId } = useParams();
 
-export const Provider: React.FC<Props> = React.memo(({ onClick, children }) => (
-  <button type="button" onClick={onClick}>
-    {children}
-  </button>
-));
+  useEffect(() => {
+    if (phoneId || tabletId || accessoryId) {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }
+  }, [phoneId, tabletId, accessoryId]);
 
-export const App: React.FC = () => {
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>TodoList</Provider>
+    <div className="App">
+      <Navigation />
+
+      <Outlet />
+
+      <Footer />
     </div>
   );
 };
