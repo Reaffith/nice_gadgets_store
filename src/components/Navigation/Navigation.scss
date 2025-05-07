@@ -86,6 +86,7 @@ $grey-primary: #313237;
   border-bottom: 2px solid;
   align-items: center;
   padding-inline: 25px 20px;
+  justify-content: center;
   display: flex;
 
   img {
@@ -107,6 +108,7 @@ $grey-primary: #313237;
   align-items: center;
   padding-inline: 15px;
   display: flex;
+  justify-content: center;
 
   img {
     transition: all $transition-duration;

@@ -177,6 +177,7 @@ $dark-secondary-gray: #828282;
 
     .emptyCart {
       grid-column: 1/-1;
+      max-width: 100vw;
     }
 
     &-block {
