@@ -32,8 +32,8 @@ Follow these instructions to set up and run the project locally:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Reaffith/phone_catalog.git
-cd phone_catalog
+git clone https://github.com/Reaffith/nice_gadgets_store.git
+cd nice_gadgets_store
 ```
 
 ### Install Dependencies
