@@ -1,8 +1,8 @@
-# Phone Catalog
+# Nice Gadgets Store
 
 ## Description
 
-Phone Catalog is a React-based e-commerce web application that allows users to browse and purchase phones, tablets, and accessories. The platform features a dynamic theme toggle (light/dark mode), product categorization, detailed item pages with color and capacity options, a shopping cart, and a liked items section. Users can navigate through various product listings, view specifications, add items to cart or favorites, and manage their selections. The project emphasizes a responsive design and an intuitive user interface.
+Nice Gadgets Store is a React-based e-commerce web application that allows users to browse and purchase phones, tablets, and accessories. The platform features a dynamic theme toggle (light/dark mode), product categorization, detailed item pages with color and capacity options, a shopping cart, and a liked items section. Users can navigate through various product listings, view specifications, add items to cart or favorites, and manage their selections. The project emphasizes a responsive design and an intuitive user interface.
 
 ## Live Preview
 
