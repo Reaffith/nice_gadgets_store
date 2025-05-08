@@ -7,7 +7,7 @@ Nice Gadgets Store is a React-based e-commerce web application that allows users
 ## Live Preview
 
 **View the Live Demo:**
-[https://reaffith.github.io/phone_catalog/](https://reaffith.github.io/phone_catalog/)
+[https://reaffith.github.io/nice_gadgets_store/](https://reaffith.github.io/nice_gadgets_store/)
 
 ## Design Reference
 
